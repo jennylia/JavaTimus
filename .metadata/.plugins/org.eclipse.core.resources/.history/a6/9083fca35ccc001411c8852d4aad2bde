@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.Scanner;
+
+
+public class solver {
+	
+	public static String pathIn = "/Users/JLian/Desktop/GGJSol/Timus/1001_ReverseRoot/src/input.txt";
+	public static String pathOut = "/Users/JLian/Desktop/GGJSol/Timus/1001_ReverseRoot/src/jenny.txt";
+
+	public static void main(String[] args) throws IOException
+	{
+//	   System.out.println("Ho");
+	   Scanner sc = new Scanner(new FileReader(pathIn));
+	   PrintWriter pw = new PrintWriter(new FileWriter(pathOut));
+	   int next = sc.nextInt();
+	  
+	   pw.print("My first experiement: " + next);
+	   pw.print("hi");
+	   
+	   int next2 = sc.nextInt();
+	   int next3 = sc.nextInt();
+	   int next4 = sc.nextInt();
+	   
+	   pw.print(next2);
+	   pw.print(next3);
+	   pw.print(next4);
+	 
+	   //Need to include these
+	   pw.flush();
+	   pw.close();
+	   sc.close();
+	   System.out.println(next);
+	}
+}
+

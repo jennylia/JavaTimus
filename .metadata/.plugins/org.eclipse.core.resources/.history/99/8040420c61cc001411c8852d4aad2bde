@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+
+public class Solver {
+	
+	public static void main(String[] args) throws IOException {
+		
+		Scanner in = new Scanner(System.in);
+		PrintWriter out = new PrintWriter(System.out);
+		
+		String hi = in.next();
+		out.write(hi);
+		
+		
+		in.close();
+		out.close();
+		out.flush();
+	}
+
+}
